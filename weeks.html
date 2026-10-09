@@ -12,19 +12,57 @@
 <nav><a href="index.html">Home</a><a href="weeks.html" class="active">Weekly Work</a><a href="reflections.html">Reflections</a></nav>
 </header>
 <main class="wrap">
-<p class="eyebrow">C2 evidence, labelled per week</p>
+<p class="eyebrow">C2 evidence, my own work, labelled per week</p>
 <h1>Weekly Work</h1>
-<section><h2>Week 1 - Team formation and brief</h2><p>Role: proposed Atlas Labs name and PM structure, supervisor check-in, brief review. Evidence: A2 registration form, meeting minutes W1.</p></section>
-<section><h2>Week 2 - Skills audits and roles</h2><p>Compared 360 web libraries, drafted architecture note and Gantt. Evidence: skills audit sheet, A5 plan draft.</p></section>
-<section><h2>Week 3 - Client consultation</h2><p>Led rescheduled consultation, locked scope after 18 to 25 Sep move. Evidence: Amin 16 Sep email, 25 Sep minutes.</p></section>
-<section><h2>Week 4 - Requirements and design</h2><p>Mapped consultation answers into FR-01 to FR-12, reviewed PACT and diagrams. Evidence: A1 design pack.</p></section>
-<section><h2>Week 5-6 - V0.1 prototype build</h2><p>Built Next.js scene with 3 hotspots, quiz, certificate, manager view with COLAB-2026. Evidence: atlas-xi-beige link, repo commits.</p></section>
-<section><h2>Week 7 - Progress pitch</h2><p>Demoed V0.1, captured hotspot steer: three too few, dynamic add essential. Evidence: pitch deck, transcript, backup video.</p></section>
-<section><h2>Week 8-9 - V1.0 final build</h2><p>Built API routes, hotspot admin, 5 plus 1 quiz, glow and responsive. Fixed committed conflict markers, shipped green builds. Evidence: commit log e900a1b to 9b5844b, Vercel Ready rows.</p></section>
-<section><h2>Week 10 - Final demo prep</h2><p>Rebuilt deck from A1 template, wrote 20 minute script, rehearsed demo path with fallback. Evidence: final deck, script, plan with responsibility chart.</p></section>
-<section><h2>Week 11 - Submission</h2><p>Assembled B1-B6 folders, peer assessment formula shares, promo site live on Pages. Evidence: B1-B6.zip review pack, github.io URL.</p></section>
-<section><h2>Week 12 - Reflection</h2><p>Wrote C1 report and this portfolio. Evidence: C1 docx, this site.</p></section>
-<p>Weeks split to twelve entries on this page before submit; structure above holds one section per week for navigation marks.</p>
+
+<section><h2>Week 1 (8-12 Sep) - Formation and first contact</h2>
+<p>Reviewed the Colab brief with the team, proposed the Atlas Labs name with a PM structure, and completed the supervisor check-in. Sent the introductory email to Amin on 11 Sep 9:34 AM with five open scope questions and the team list.</p>
+<p>Evidence: <a href="evidence/a3-evidence-1.png">intro email 11 Sep</a>, group registration form and Week 1 minutes in the Assignment 1 folder.</p></section>
+
+<section><h2>Week 2 (15-19 Sep) - Roles and scheduling</h2>
+<p>Compared 360 web libraries, drafted the architecture note and Gantt. Received Amin's steer on 14 Sep (uneven briefings, manual handling plus forklift plus PPE, 70 pass, sample photos for demo only). Sent two consultation slots on 16 Sep 10:08 AM; Amin confirmed Thu 18 Sep 14:00 the same afternoon.</p>
+<p>Evidence: <a href="evidence/a3-evidence-2.png">Amin reply 14 Sep</a>, <a href="evidence/a3-evidence-3.png">scheduling email 16 Sep</a>, <a href="evidence/a3-evidence-4.png">Amin confirm 16 Sep</a>, skills audits.</p></section>
+
+<section><h2>Week 3 (22-26 Sep) - Consultation moved, steer captured</h2>
+<p>The 18 Sep session did not proceed and was held 25 Sep by mutual agreement. I sent a file confirmation on 25 Sep 10:36 AM and minuted the session the same day. Amin's steer: three hotspots too few, dynamic add essential, role-specific points, otherwise good to go.</p>
+<p>Evidence: <a href="evidence/sent-reschedule-confirm-25sep.png">confirmation request 25 Sep (reply awaited below)</a>, 25 Sep minutes in B3 appendix, backup recording FINAL VIDEO.mp4.</p>
+<p><strong>Amin reply: AWAITED - will be filed here on arrival.</strong></p></section>
+
+<section><h2>Week 4 (29 Sep-3 Oct) - Requirements freeze</h2>
+<p>Mapped the steer into FR-01 to FR-12, PACT wording checks and the Gantt Phase 2 close. Logged the 18 to 25 Sep move as plan versus actual instead of editing history.</p>
+<p>Evidence: A1 design pack, A5 Gantt with Week milestones.</p></section>
+
+<section><h2>Week 5 (6-10 Oct) - V1.0 design</h2>
+<p>Wrote B1 high level design: 7 use cases, 11 stories, flowcharts, UML, database ready ERD, 16 tests, guides and the 7 item change log with Amin quotes. Specified the admin content model with role tags.</p>
+<p>Evidence: B1 document with B1_Figures, traceability matrix.</p></section>
+
+<section><h2>Week 6 - Backend build</h2>
+<p>Built API routes for hotspots, attempts and the open answer check with server held key and fail open fallback, plus the hotspot admin page behind the manager code. Added manual handling bay and spill point with role tags.</p>
+<p>Evidence: commits in ATLAS-PVT-LTD-, routes app/api/*/route.ts, app/admin/page.tsx.</p></section>
+
+<section><h2>Week 7 - Quiz and flow hardening</h2>
+<p>Rebuilt the quiz as 5 linked multiple choice plus 1 written answer with confidence gate 0.70, fixed the last index gate and score math, made the scene counter dynamic N of N.</p>
+<p>Evidence: lib/config.ts quiz bank, app/quiz/page.tsx, app/scene/page.tsx.</p></section>
+
+<section><h2>Week 8 - Merge conflicts and red builds</h2>
+<p>Resolved clashes with the developer branch (quiz count, type system), then fixed two self inflicted production failures: a duplicate bracket and committed conflict markers in globals.css. Rule adopted: no push without green build on the exact tree.</p>
+<p>Evidence: commits e900a1b, c9b2009, 98a370f, 9b5844b; Vercel Error to Ready rows.</p></section>
+
+<section><h2>Week 9 - Presentation pack</h2>
+<p>Rebuilt the 14 slide deck from the A1 template with V1.0 content, wrote the presentation plan with responsibility chart, and wrote the 20 minute spoken script with demo narration.</p>
+<p>Evidence: final deck, B6 plan, script in Downloads.</p></section>
+
+<section><h2>Week 10 - Company site and peer review</h2>
+<p>Shipped the four page promo site with animations and college contact email, published to GitHub Pages, finalised the zero budget plan, and set peer shares by formula to total 100.</p>
+<p>Evidence: <a href="https://sadizaryal.github.io/atlas-labs/">live promo site</a>, B5 sheets, marketing plan.</p></section>
+
+<section><h2>Week 11 - Assembly and rehearsal</h2>
+<p>Assembled the B1-B6 review pack for humanising, rehearsed the demo path with fallback, prepared the client feedback form for signature.</p>
+<p>Evidence: B1-B6.zip, backup recording, blank feedback forms.</p></section>
+
+<section><h2>Week 12 - Reflection and submit</h2>
+<p>Wrote the C1 report quoting this portfolio, completed these reflections, submitted the individual ZIP to my Canvas portal.</p>
+<p>Evidence: C1 docx with portfolio link on its title page, this site.</p></section>
 </main>
 <footer class="site wrap"><span>Sadiz Aryal - CET257 Individual Portfolio</span></footer>
 </body>
